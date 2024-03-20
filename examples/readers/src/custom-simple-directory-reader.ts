@@ -3,7 +3,7 @@ import {
   FILE_EXT_TO_READER,
   SimpleDirectoryReader,
   TextFileReader,
-} from "llamaindex/readers/SimpleDirectoryReader";
+} from "llamaindex/readers";
 
 class ZipReader implements BaseReader {
   loadData(...args: any[]): Promise<Document<Metadata>[]> {
